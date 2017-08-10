@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h1>Edit ToDo List Item</h1>
+    <form class="" action="/edit" method="post">
+      {{#todos}}
+      <input type="text" value="{{name}}" name="editField"><button type="submit" name="editButton" value="{{id}}">Edit</button>
+      {{/todos}}
+    </form>
+  </body>
+</html>

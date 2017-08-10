@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "aprilross",
+    "password": null,
+    "database": "FinalToDo",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "aprilross",
+    "password": null,
+    "database": "FinalToDo",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "aprilross",
+    "password": null,
+    "database": "FinalToDo",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
